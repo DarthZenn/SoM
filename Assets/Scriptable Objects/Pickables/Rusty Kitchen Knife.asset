@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2769640ff80021245a908f8f01b491b2, type: 3}
+  m_Name: Rusty Kitchen Knife
+  m_EditorClassIdentifier: 
+  itemID: weapon_melee_rustykitchenknife
+  itemName: Rusty Kitchen Knife
+  icon: {fileID: 21300000, guid: d26d16e92a041574daa8d28e61ccb963, type: 3}
+  itemType: 1
+  description: A rusty kitchen knife.
+  maxStack: 1
+  inventoryPrefab: {fileID: 9206772494697614315, guid: 24e6000d80a38dd4e8975746ad3bb7dc, type: 3}
+  worldPrefab: {fileID: 9206772494697614315, guid: a653b2f9d62b1c84d9c77a33075d3615, type: 3}
+  weaponCategory: 0
+  damage: 25
+  isTwoHanded: 0
+  fireRate: 0
+  magazineSize: 0
+  ammoType: {fileID: 0}
+  range: 0
+  arcAngle: 0
