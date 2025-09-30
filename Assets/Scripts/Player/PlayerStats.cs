@@ -118,9 +118,7 @@ public class PlayerStats : MonoBehaviour
     {
         _currentHealth = maxHealth;
         _currentSanity = maxSanity;
-        healSanityTimer = 0f;
-        damageSanityTimer = 0f;
-        darkTimer = 0f;
+        ResetTimers();
     }
 
     /*public void SanityChecker()

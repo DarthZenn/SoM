@@ -31,9 +31,6 @@ public class Player1HMeleeCombat : PlayerState
 
         float horizontal = Input.GetAxisRaw("Horizontal");
 
-        // Rotation
-        /*float rotation = horizontal * playerContext.rotateSpeed * Time.deltaTime;
-        playerContext.characterController.transform.Rotate(0f, rotation, 0f);*/
         playerContext.Rotate(horizontal);
 
         // Update animator parameter

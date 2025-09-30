@@ -8,7 +8,6 @@ public class InventoryManager : MonoBehaviour
 {
     public static InventoryManager Instance;
 
-    //public GameManager gameManager;
     public GameObject inventoryUI;
     public InventorySlot[] slots; // Assign 9 buttons in Inspector
     public InventorySlot[] equipmentSlots;

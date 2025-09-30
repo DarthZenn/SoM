@@ -22,8 +22,8 @@ public class PlayerStatsUI : MonoBehaviour
 
     void Update()
     {
-        // scroll texture (using unscaled time if you want UI independent of Time.timeScale)
-        colorBarImage.material.mainTextureOffset += new Vector2(Time.unscaledDeltaTime * (-scrollSpeed / 10f), 0f);
+        // scroll texture (using unscaled time for UI independent of Time.timeScale)
+        colorBarImage.material.mainTextureOffset += new Vector2((-scrollSpeed / 10f) * Time.unscaledDeltaTime, 0f);
 
         UpdateHealthUI(PlayerStats.Instance.currentHealth, PlayerStats.Instance.maxHealth);
         UpdateSanityUI(PlayerStats.Instance.currentSanity, PlayerStats.Instance.maxSanity);
